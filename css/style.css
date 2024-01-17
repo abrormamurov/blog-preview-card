@@ -1,0 +1,132 @@
+/* figtree-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/figtree-v5-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/figtree-v5-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  html, body {
+    height: 100%;
+  }
+
+
+  body {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f4d04e;
+font-family: "Figtree" sans-serif;
+font-weight: 500px;
+line-height: 24px;
+color: #7f7f7f;
+  }
+
+
+  .card {
+    background-color: #fff;
+    width: 384px;
+    border: 1px solid #111;
+    background: var(--Pure-White, #FFF);
+    box-shadow: 8px 8px 0px 0px #000;
+    border-radius: 20px;
+    
+  }
+
+  .card-image {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    border-radius: 10px;
+background: var(--Yellow, #F4D04E);
+margin: 24px;
+  }
+
+  .card-badge {
+    display: flex;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+background: var(--Yellow, #F4D04E);
+width: 82px;
+height: 29px;
+margin: 24px;
+  }
+
+  .card-badge-text {
+    color: var(--Black, #111);
+
+    /* Body S (Bold) */
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    margin:  12px;
+    
+
+  }
+
+
+  .card-published-data {
+    color: var(--Black, #111);
+/* Body S (Regular) */
+font-family: Figtree;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+margin-bottom: 12px;
+font-size: 24px;
+margin: 24px;
+  }
+
+  .card-title {
+    color: #111;
+margin-bottom: 12px;
+font-size: 24px;
+margin: 24px;
+  }
+
+  .card-description {
+    color: var(--Grey, #7F7F7F);
+
+/* Body M */
+font-family: Figtree;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+margin: 24px;
+margin-bottom: 24px;
+  }
+
+
+  .card-author {
+    display: flex;
+align-items: center;
+gap: 12px;
+margin: 24px;
+margin-bottom: 24px;
+  }
+
